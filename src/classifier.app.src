@@ -1,0 +1,12 @@
+{application, classifier,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { classifier_app, []}},
+  {env, []}
+ ]}.
