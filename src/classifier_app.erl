@@ -14,6 +14,7 @@ start() ->
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
+erlang~
   classifier_sup:start_link().
 
 stop(_State) ->
